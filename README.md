@@ -1,0 +1,2 @@
+# bininfo
+Inspect binary files
