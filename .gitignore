@@ -1,32 +1,9 @@
-# Prerequisites
-*.d
+/docs/
+/lib/
+/bin/
+/.shards/
+*.dwarf
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Libraries don't need dependency lock
+# Dependencies will be locked in applications that use them
+/shard.lock
